@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+    margin: 0;
+    background-color:white;
+}
+.logo-hero {
+    display: flex;
+    font-family: poppins;
+    font-weight: 800;
+    color: black;
+    justify-content: center;
+
+}
+.banner-hero {
+    user-select: none;
+    box-shadow:  25px 25px 50px #c8c6c6,
+             -25px -25px 50px #ffffff;
+    background-color: #ebe9e9;
+}
+#Spotter-text {
+    color: #ff598b;
+}
+.banner-hero .logo-hero  {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+#banner {
+    height: auto;
+    width: auto;
+    background-image: url(./assets/img/swirl.jpg);
+}
+.text-section {
+    color:whitesmoke;
+    display: flex;
+    flex: 1;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 0;
+    justify-content: center;
+    text-align: center;
+}
+.text-section-product {
+    color: #ff598b;
+    display: flex;
+    font-family: poppins;
+    font-size: 15px;
+    text-decoration: underline;
+    margin: 0;
+    width: auto;
+    flex: 1;
+    justify-content: center;
+}
+
+h2 {
+    font-family: poppins;
+
+}
+.imgp {
+    display: flex;
+    width: 650px;
+    align-items:start;
+    justify-content: center;
+    
+}
+#product-headline {
+    display: flex;
+    justify-content: center;
+
+}
+.banner-product {
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+    justify-items: start;
+    flex-direction: column;
+    align-items: center;
+}
+.buy-btn {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a {
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background: rgb(22,255,0);
+    border-bottom: rgb(68, 68, 68) solid 2px;
+    background: linear-gradient(137deg, rgba(22,255,0,1) 21%, rgba(4,193,0,1) 70%);
+    color: white;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 900;
+}
+a:visited{
+    color: none;
+}
+@media (max-width:600px) {
+    h2 {
+        line-height: 40px;
+    }
+    h3 {
+        text-align: center;
+    }
+    .imgp {
+        width:300px;
+        height: 250px;
+    }
+}
+@media (max-width:1180px) {
+    h2 {
+        line-height: 40px;
+    }
+    h3 {
+        text-align: center;
+    }
+    .imgp {
+        width:300px;
+        height: 250px;
+    }
+}
